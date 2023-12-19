@@ -1,9 +1,11 @@
 <script>
 import Jumbotron from './Jumbotron.vue';
+import AppHeaderCard from './AppHeaderCard.vue';
 export default {
   name: 'Header',
   components: {
     Jumbotron,
+    AppHeaderCard,
   }
 
  
@@ -11,10 +13,10 @@ export default {
 </script>
 
 <template>
-    <div class="header text-center container d-flex justify-content-between">
+    <div class="header text-center container d-flex justify-content-between p-2">
         <img src="../assets/img/logo-2.png" alt="logo_header" id="logo-header">
         <nav>
-            <ul class="d-flex">
+            <ul class="d-flex m-3 gap-2">
                 <li>
                     <a href="">Home</a>
                 </li>
@@ -37,14 +39,22 @@ export default {
                     <a href="">icona 2</a>
                 </li>
                 <li>
-                    <button>Get Started</button>
+                    <button class="btn btn-primary">Get Started</button>
                 </li>
             </ul>
         </nav>
     </div>
     <Jumbotron />
+    <div class="container d-flex pt-5">
+        <AppHeaderCard />
+        <AppHeaderCard />
+        <AppHeaderCard />
+    </div>
 </template>
 
 <style scoped lang="scss">
+#logo-header{
+    height: 50px;
+}
 
 </style>
