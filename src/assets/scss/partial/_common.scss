@@ -6,9 +6,15 @@ COMMON
 
 @use './variables' as *;
 
-h1 {
-  color: $primary-color;
-}
+
 ul{
   list-style: none;
+}
+a{
+  text-decoration: none;
+}
+// UTILITIES
+.container-big{
+  width: 85%;
+  border: 1px solid red;
 }
