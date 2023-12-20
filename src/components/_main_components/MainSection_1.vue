@@ -8,17 +8,17 @@ export default {
         <div class="left col-6 text-start">
             <h3>Get tips tricks on how to skyrocket your sales.</h3>
             <p>Faff about only a quid blower I don't want no agro bleeding choimney pot burke tossercras nice one boot fanny!</p>
-            <div class="infos d-flex">
-                <img src="../../assets/img/510.png" class="info-img" alt="small-img">
+            <div class="infos d-flex shadow">
+                <img src="../../assets/img/510.png" class="info-img " alt="small-img">
                 <div class="caption">
-                    <h6>Reporting Analysis</h6>
+                    <h6 class="colored">Reporting Analysis</h6>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. ad ex ipsa quos quaerat quibusdam velit amet eaque facere nam accusantium eligendi vero!</p>
                 </div>
             </div>
             <div class="infos d-flex">
                 <img src="../../assets/img/511.png" class="info-img" alt="small-img">
                 <div class="caption">
-                    <h6>Reporting Analysis</h6>
+                    <h6>technical SEO adult</h6>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. ad ex ipsa quos quaerat quibusdam velit amet eaque facere nam accusantium eligendi vero!</p>
                 </div>
             </div>
@@ -30,15 +30,36 @@ export default {
 </template>
 
 <style scoped lang="scss">
+
 section{
     margin-top: 150px;
+    div{
+        margin: 20px 0;
+
+    }
+}
+/////////////////////// IMAGE
+h3{
+    font-size: 40px;
 }
 .info-img{
     height: 50px;
-    margin: 10px;
+    margin: 15px;
+    align-self: center;
+}
+////////////////////// CAPTION
+.colored{
+    color:#377DFF; ;
+}
+.shadow{
+box-shadow: 5px 5px 20px 5px #838383;
+}
+h6{
+    padding: 10px 0;
 }
 p{
     font-size: 14px;
+    color: #838383;
 }
 
 </style>
