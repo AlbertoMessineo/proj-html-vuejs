@@ -14,7 +14,7 @@ export default {
 
 <template>
     <header>
-        <div class="header text-center container d-flex justify-content-between p-2">
+        <div class="header text-center custom-container d-flex justify-content-between p-2">
             <img src="../assets/img/logo-2.png" alt="logo_header" id="logo-header">
             <nav>
                 <ul class="d-flex m-3 gap-2">
@@ -46,7 +46,7 @@ export default {
             </nav>
         </div>
         <Jumbotron />
-        <div class="container d-flex pt-5">
+        <div class="custom-container d-flex pt-5">
             <AppHeaderCard />
             <AppHeaderCard />
             <AppHeaderCard />

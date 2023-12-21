@@ -4,7 +4,7 @@ export default {
 }
 </script>
 <template>
-    <section class="container d-flex">
+    <section class="custom-container d-flex">
         <div class="left col-6 text-start">
             <h3>Get tips tricks on how to skyrocket your sales.</h3>
             <p>Faff about only a quid blower I don't want no agro bleeding choimney pot burke tossercras nice one boot fanny!</p>

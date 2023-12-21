@@ -14,6 +14,22 @@ a{
   text-decoration: none;
 }
 // UTILITIES
-.container-big{
+.custom-container-big{
   width: 85%;
+}
+
+
+
+
+// Source mixin
+@mixin make-custom-container() {
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 30px auto;
+}
+
+// Usage
+.custom-container {
+  @include make-custom-container();
 }

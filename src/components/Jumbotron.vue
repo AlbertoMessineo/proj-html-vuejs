@@ -8,7 +8,7 @@ export default {
 </script>
 
 <template>
-<div class="container-big d-flex justify-content-between mx-auto mb-5 p-5">
+<div class="custom-container-big d-flex justify-content-between mx-auto mb-5 p-5">
   <div class="left col-5">
     <h2 class="m-2">The biggest platform for your growth.</h2>
     <p class="m-2 py-2">There are many variations of passages of lorem ipsum available, but majorities have suffered alteration in some form</p>
@@ -22,7 +22,7 @@ export default {
 </template>
 
 <style scoped lang="scss">
-.container-big{
+.custom-container-big{
   height: 492px;
   background-color: #F2F7FF;
   border-radius: 5px;
