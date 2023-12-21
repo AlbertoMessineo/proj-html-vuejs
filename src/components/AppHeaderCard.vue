@@ -7,11 +7,11 @@ export default {
 
 <template>
   
-    <div class="d-flex">
+    <div class="d-flex my-5">
       <div class="pc-icon d-flex justify-content-center align-items-center rounded-circle">
         <i class="fa-solid fa-desktop"></i>
       </div>
-      <div class="marketing-list text-start lh-3 gy-3">
+      <div class="marketing-list text-start ms-3 lh-3 gy-3">
         <h5>Online Marketing</h5>
         <p>it is a long enstablished fact that a reader will be distracted</p>
         <ul class="p-0 gy-3">
