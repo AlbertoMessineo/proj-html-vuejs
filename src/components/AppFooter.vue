@@ -7,9 +7,9 @@ export default {
 </script>
 
 <template>
-  <footer>
-    <div class="custom-container d-flex justify-content-between">
-      <div class="footer-caption">
+  <footer class="aliceblue">
+    <div class="custom-container d-flex justify-content-between my-5">
+      <div class="footer-caption p-3">
         <img src="../assets/img/35.png" alt="">
         <p>It is a long enstablished fact that a reader will be distracted by the readble content.</p>
         <p>Copyright @ 2018 <span>Softbox</span></p>
@@ -57,5 +57,18 @@ export default {
 <style scoped lang="scss">
 .footer-caption{
   width: calc(100% / 3);
+}
+footer{
+  margin: 0;
+  padding: 0;
+}
+.list{
+  padding: 20px 0;
+  line-height: 2.5;
+  color: #8E989F;
+  h6{
+    color: black;
+    font-size: 20px;
+  }
 }
 </style>

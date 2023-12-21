@@ -52,5 +52,11 @@ export default {
 } .fa-check{
       color: #377DFF;
     }
+span{
+  margin: 0 10px;
+  color: black;
+  font-weight: 400;
+  line-height: 2;
+}    
     
 </style>

@@ -12,6 +12,16 @@ ul{
 }
 a{
   text-decoration: none;
+  color: black;
+  padding: 15px;
+}
+a:hover{
+  color: #377DFF;
+  border-bottom: 2px solid #377DFF;
+}
+.btn:hover{
+  background-color: black;
+  color: white;
 }
 // UTILITIES
 .custom-container-big{

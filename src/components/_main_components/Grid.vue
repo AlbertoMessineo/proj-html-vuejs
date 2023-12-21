@@ -7,9 +7,9 @@ export default {
 <template>
   <section class="bg">
     <div class="custom-container grid-header d-flex justify-content-between">
-      <div class="left">
+      <div class="left ">
         <h3>Popular features that your business needs</h3>
-        <p>
+        <p class="col-9">
           Faff about only a quid blower I don't want no agro bleeding choimney pot
           burke tossercras nice one boot fanny!
         </p>
@@ -20,7 +20,7 @@ export default {
     </div>
   <!-- //////////////////////////////////GRID -->
     <div class="custom-container grid">
-      <div class="row d-flex justify-content-center gap-5 m-4">
+      <div class="row d-flex justify-content-center gap-3 m-4">
         <div class="box col-2">
           <h5>Customized Invoices</h5>
           <div class="logo blu">
@@ -46,7 +46,7 @@ export default {
           </div>
         </div>
       </div>
-      <div class="row d-flex justify-content-center gap-5 m-4">
+      <div class="row d-flex justify-content-center gap-3 m-4">
           <div class="box col-2">
           <h5>Powerful & Secure</h5>
           <div class="logo orange">
@@ -96,9 +96,37 @@ p {
   color: #838383;
 }
 .box{
+    width: 250px;
     height: 160px;
-    -webkit-box-shadow: 2px 5px 17px 25px #D1D1B6; 
-    box-shadow: 2px 5px 8px 8px #D1D1B6;
+    -webkit-box-shadow: 0px 0px 26px 24px #D9D9D9; 
+    box-shadow: 0px 0px 26px 24px #D9D9D9;
+    h5{
+      font-size: 18px;
+      margin: 10px;
+      padding-bottom: 20px;
+    }
+    .blu{
+      color: #377DFF;
+    }
+    .orange{
+      color: #ff796d;
+    }
+    .green{
+      color: #97e5d3;
+    }
+    .fa-solid,
+    .fa-regular{
+      font-size: 40px;
+    }
+
+}
+.box:hover{
+  background-color: #97e5d3;
+  color: white;
+  .fa-solid,
+  .fa-regular{
+    color: white;
+  }
 }
 
 </style>

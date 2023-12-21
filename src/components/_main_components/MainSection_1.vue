@@ -8,14 +8,14 @@ export default {
         <div class="left col-6 text-start">
             <h3>Get tips tricks on how to skyrocket your sales.</h3>
             <p>Faff about only a quid blower I don't want no agro bleeding choimney pot burke tossercras nice one boot fanny!</p>
-            <div class="infos d-flex shadow">
+            <div class="infos d-flex shadows">
                 <img src="../../assets/img/510.png" class="info-img " alt="small-img">
                 <div class="caption">
                     <h6 class="colored">Reporting Analysis</h6>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. ad ex ipsa quos quaerat quibusdam velit amet eaque facere nam accusantium eligendi vero!</p>
                 </div>
             </div>
-            <div class="infos d-flex">
+            <div class="infos d-flex mt-4 pt-2">
                 <img src="../../assets/img/511.png" class="info-img" alt="small-img">
                 <div class="caption">
                     <h6>technical SEO adult</h6>
@@ -24,7 +24,7 @@ export default {
             </div>
         </div>
         <div class="right col-6">
-            <img src="../../assets/img/509.jpeg" alt="">
+            <img src="../../assets/img/509.jpeg" class="ms-4" alt="">
         </div>
     </section>
 </template>
@@ -51,8 +51,9 @@ h3{
 .colored{
     color:#377DFF; ;
 }
-.shadow{
-box-shadow: 5px 5px 20px 5px #838383;
+.shadows{
+    -webkit-box-shadow: 2px 15px 9px 10px #D9D9D9; 
+box-shadow: 2px 15px 9px 10px #D9D9D9;
 }
 h6{
     padding: 10px 0;
